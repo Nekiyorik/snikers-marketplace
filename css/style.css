@@ -4,16 +4,16 @@
     border: 0;
 }
 @font-face {
-    font-family: 'Futura Bk BT';
+    font-family: 'Futura';
     src: url('../public/fonts/FuturaBookBT.ttf');
     font-style: normal;
     font-weight: 400;
 }
 @font-face {
-    font-family: 'Futura Bk BT';
-    src: url('../public/fonts/FuturaBookBT.ttf');
+    font-family: 'Futura-Black';
+    src: url('../public/fonts/Junior.ttf');
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
 @font-face {
     font-family: 'Futura Bk BT';
@@ -34,6 +34,7 @@ body, html{
 body{
     background: #000;
     color: white;
+    font-family: 'Futura';
 }
 .wrapper {
     width: 1280px;
@@ -80,4 +81,59 @@ nav > ul{
 }
 .account-menu__item > img{
     width: 100%;
+}
+.main {
+    position: relative;
+}
+.main::before{
+    content: "AIR JORDAN 1 RETRO HIGH OG DUNK HIGH";
+    font-size: 128px;
+    font-family: Futura-Black;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 128px;
+    color: #191919;
+
+    background-image: linear-gradient(to bottom, #191919, #19191900);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 1280px;  
+}
+.change-color {
+    position: absolute;
+    z-index: 8;
+}
+.change-color__item {
+}
+.main-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    z-index: 10;
+}
+.main-img {
+}
+.main-information {
+}
+.main-title {
+}
+.main-price {
+}
+.main-size {
+}
+.main-button {
+}
+.btn {
 }
